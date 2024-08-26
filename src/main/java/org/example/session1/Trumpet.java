@@ -1,4 +1,4 @@
-package org.example;
+package org.example.session1;
 
 public class Trumpet extends Instrument {
     private boolean hasCase;
