@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.challenge1.Car;
+import org.example.challenge1.Motorcycle;
+import org.example.challenge1.Vehicle;
 import org.example.session1.Gitarre;
 import org.example.session1.Instrument;
 import org.example.session1.Piano;
@@ -20,12 +22,18 @@ public class Main {
 
         System.out.println("Ab hier Challenge1:");
         //Challenge1:
+        Vehicle vehicle = new Vehicle("Hyundai", "Kona", 200);
+
+        System.out.println(vehicle);
+
         Car car = new Car("Skoda", "Enyaq", 2022, 5);
 
         System.out.println(car);
 
+        //Bonus1:
+        Motorcycle motorcycle = new Motorcycle("Honda", "CBR", 2024, "Sportbike");
 
-
+        System.out.println(motorcycle);
 
     }
 
